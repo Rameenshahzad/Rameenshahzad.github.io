@@ -4,10 +4,12 @@
    <meta charset= "UTF-8" meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Final Project </title>
    <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   </head>
 
- <body>
-   <header class="text-gray-600 body-font">
+ <body onload="AOS.init();">
+   <header class="text-gray-600 body-font" data-aos="fade-in">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -26,7 +28,7 @@
 </header>
 
 
-<section class="text-gray-600 body-font">
+<section class="text-gray-600 body-font" data-aos="fade-up">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap w-full mb-20">
       <div class="lg:w-2/3 w-8 mb-6 lg:mb-0">
@@ -41,7 +43,7 @@ In this mode, the 555 timer IC performs the switching action by producing two ty
 In this circuit, the transistor acts as the switch</p>
     </div>
 
-<section class="text-gray-900 body-font overflow-hidden bg-gray-100">
+<section class="text-gray-900 body-font overflow-hidden bg-gray-100" data-aos="zoom-in>
   <div class="container px-6 py-24 mx-auto">
     <div class="-my-8 divide-y-2 divide-gray-300">
       <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -80,7 +82,7 @@ In this circuit, the transistor acts as the switch</p>
 
 
 
-<footer class="text-gray-600 body-font">
+<footer class="text-gray-600 body-font" data-aos="fade-in">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
 
     <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
